@@ -33,3 +33,5 @@ student.print_score()
 susan.print_score()
 print(susan.get_grade())
 print(student.get_grade())
+
+print("version 1.0")
