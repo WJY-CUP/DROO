@@ -105,8 +105,6 @@ def bisection(h, M, weights=[]):
 
     return sum_rate(x), x[0], x[1:]
 
-
-
 def cd_method(h):
     N = len(h)
     M0 = np.random.randint(2,size = N)
